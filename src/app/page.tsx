@@ -39,6 +39,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+    
+
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
@@ -145,57 +147,42 @@ export default function Page() {
                   tags={project.technologies}
                   image={project.image}
                   video={project.video}
-                  links={project.links}
+                  
                 />
               </BlurFade>
             ))}
           </div>
         </div>
       </section>
-      <section id="hackathons">
-        <div className="space-y-12 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 13}>
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Hackathons
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
-                </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
-                </p>
-              </div>
-            </div>
-          </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA.hackathons.map((project, id) => (
-                <BlurFade
-                  key={project.title + project.dates}
-                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
-                >
-                  <HackathonCard
-                    title={project.title}
-                    description={project.description}
-                    location={project.location}
-                    dates={project.dates}
-                    image={project.image}
-                    links={project.links}
-                  />
-                </BlurFade>
-              ))}
-            </ul>
-          </BlurFade>
-        </div>
-      </section>
-      <section id="contact">
+      <div className="flex justify-center items-center">
+  <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+    <button
+      className="
+        bg-gray-100 
+        dark:bg-gray-800 
+        text-sm 
+        text-gray-900 
+        dark:text-gray-100 
+        px-4 
+        py-2 
+        rounded-lg 
+        shadow-sm 
+        hover:bg-gray-200 
+        dark:hover:bg-gray-700 
+        hover:shadow-md 
+        transform 
+        transition 
+        duration-200 
+        ease-in-out 
+        hover:scale-105 
+        active:scale-95
+      "
+    >
+      Resume
+    </button>
+  </a>
+</div>
+   <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
