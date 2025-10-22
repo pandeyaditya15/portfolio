@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Full Stack Developer transitioning from business analysis. Passionate about building scalable web applications and optimizing workflows through technology.",
    summary:
-  "With over 2.5 years of experience as a Business Analyst at Citicorp, I transitioned into full stack web development — mastering React.js, Node.js, and MongoDB. I’ve built multiple real-world applications such as SuperLM (an AI tutor inside your book) and Supacast (an AI podcast generator). My focus is on building intelligent, scalable, and user-centric applications using modern web technologies and AI integrations. I bring an analytical, detail-oriented mindset from my business analysis background into software engineering, ensuring every project aligns with both user and business needs.",
+  "With over 2.5 years of experience in Finance Operation at Citicorp, I transitioned into full stack web development — mastering React.js, Node.js, and MongoDB. I’ve built multiple real-world applications such as SuperLM (an AI tutor inside your book) and Supacast (an AI podcast generator). My focus is on building intelligent, scalable, and user-centric applications using modern web technologies and AI integrations. I bring an analytical, detail-oriented mindset from my business analysis background into software engineering, ensuring every project aligns with both user and business needs.",
 
   avatarUrl: "/me.png", // replace with your actual image path
   skills: [
@@ -68,12 +68,12 @@ export const DATA = {
       href: "https://www.citigroup.com/",
       badges: [],
       location: "Pune, Maharashtra",
-      title: "Business Analyst",
+      title: "Finance Operation Specialist",
       logoUrl: "/citicorp.png",
       start: "2022",
       end: "2025",
       description:
-        "Worked as a Business Analyst in financial operations, focusing on KYC compliance, data integrity, and workflow optimization. Collaborated with cross-functional teams to analyze processes, identify automation opportunities, and streamline documentation workflows. Designed and implemented solutions that improved data accuracy, reporting efficiency, and overall business performance.",
+        "Worked in financial operations, focusing on KYC compliance, data integrity, and workflow optimization. Collaborated with cross-functional teams to analyze processes, identify automation opportunities, and streamline documentation workflows. Designed and implemented solutions that improved data accuracy, reporting efficiency, and overall business performance.",
     },
   ],
 
