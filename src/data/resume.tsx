@@ -8,7 +8,7 @@ export const DATA = {
   location: "Bangalore, India",
   locationLink: "https://www.google.com/maps/place/Bangalore,+Karnataka",
   description:
-    "Full Stack Developer transitioning from business analysis. Passionate about building scalable web applications and optimizing workflows through technology.",
+    "Full Stack Developer transitioning from finance background. Passionate about building scalable web applications and optimizing workflows through technology.",
    summary:
   "With over 2.5 years of experience in Finance Operation at Citicorp, I transitioned into full stack web development — mastering React.js, Node.js, and MongoDB. I’ve built multiple real-world applications such as SuperLM (an AI tutor inside your book) and Supacast (an AI podcast generator). My focus is on building intelligent, scalable, and user-centric applications using modern web technologies and AI integrations. I bring an analytical, detail-oriented mindset from my business analysis background into software engineering, ensuring every project aligns with both user and business needs.",
 
