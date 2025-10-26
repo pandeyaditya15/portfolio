@@ -8,9 +8,9 @@ export const DATA = {
   location: "Bangalore, India",
   locationLink: "https://www.google.com/maps/place/Bangalore,+Karnataka",
   description:
-    "Full Stack Developer transitioning from finance background. Passionate about building scalable web applications and optimizing workflows through technology.",
+    "Full Stack Developer passionate about building scalable web applications and optimizing workflows through technology.",
    summary:
-  "With over 2.5 years of experience in Finance Operation at Citicorp, I transitioned into full stack web development — mastering React.js, Node.js, and MongoDB. I’ve built multiple real-world applications such as SuperLM (an AI tutor inside your book) and Supacast (an AI podcast generator). My focus is on building intelligent, scalable, and user-centric applications using modern web technologies and AI integrations. I bring an analytical, detail-oriented mindset from my business analysis background into software engineering, ensuring every project aligns with both user and business needs.",
+  "Currently focused on building AI-driven, scalable, and impactful web applications. Experienced in creating real-world products like SuperLM (AI Tutor) and Supacast (AI Podcast Generator). Strong in problem-solving, clean architecture, and end-to-end development using React.js, Node.js, and MongoDB. Committed to turning ideas into seamless, intelligent digital experiences.",
 
   avatarUrl: "/me.png", // replace with your actual image path
   skills: [
@@ -19,6 +19,10 @@ export const DATA = {
     "Node.js",
     "Express.js",
     "MongoDB",
+    "MySQL",
+    "PostgresSQL",
+    "Pinecone",
+    "Prisma",
     "JavaScript (ES6+)",
     "TypeScript",
     "Tailwind CSS",
@@ -61,33 +65,7 @@ export const DATA = {
       },
     },
   },
-
-  work: [
-    {
-      company: "Citicorp Services Pvt Ltd",
-      href: "https://www.citigroup.com/",
-      badges: [],
-      location: "Pune, Maharashtra",
-      title: "Finance Operation Specialist",
-      logoUrl: "/citicorp.png",
-      start: "2022",
-      end: "2025",
-      description:
-        "Worked in financial operations, focusing on KYC compliance, data integrity, and workflow optimization. Collaborated with cross-functional teams to analyze processes, identify automation opportunities, and streamline documentation workflows. Designed and implemented solutions that improved data accuracy, reporting efficiency, and overall business performance.",
-    },
-  ],
-
-  education: [
-    {
-      school: "Lovely Professional University",
-      href: "https://www.lpu.in/",
-      degree: "Bachelor of Business Administration",
-      logoUrl: "/lpu.png",
-      start: "2019",
-      end: "2022",
-    },
-  ],
-
+ 
   projects: [
     {
       title: "SuperLM - AI Tutor",
